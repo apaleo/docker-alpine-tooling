@@ -12,3 +12,5 @@ This is a small Docker image based on alpine with:
 - jq
 
 to allow running custom tools to run also in windows.
+
+Mount the working directory into `/data` and you can run `/bin/bash` on it.

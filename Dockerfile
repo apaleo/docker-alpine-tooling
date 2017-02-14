@@ -6,3 +6,5 @@ RUN apk add --update \
     git \
     jq \
     && rm -rf /var/cache/apk/*
+
+VOLUME /data
